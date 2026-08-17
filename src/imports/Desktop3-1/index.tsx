@@ -1,24 +1,24 @@
 import svgPaths from "./svg-2ulkp1tdwb";
-import imgImage from "./7c9041e39500bc30757630d9a41aa07b01213fef.png";
-import imgImage1 from "./2dfd71ae5cbf5f62d8dd8c312b1476fb9f7da6c0.png";
-import imgImage2 from "./8dac4b5e38b5b0e375d34d8502d63830b73167c0.png";
-import imgCtaSection from "./c5896a3f6e9a45b8cbbb8b9930ad7996615f0fd6.png";
-import imgContent from "./864c4828a39629a006642af67b4a8d267fb629f3.png";
-import imgImage3 from "./387748e4adf2e6b54ac0f40178083b0378eb1e0c.png";
-import imgRectangle1 from "./99db85dcc91aadd97c4f79fbdc8a8c020b713409.png";
-import imgRectangle2 from "./4ef312fd151c967819dd3a272b626480d789857d.png";
-import imgImage4 from "./9647e2859bfa976db4bf477a57143f1c9102a525.png";
-import imgImage5 from "./719c0b382987dfd5da9d817ede1d3254d0b69a6c.png";
-import imgImage6 from "./33759ff19bceb78330a2904aaf9492f0142d5a04.png";
-import imgImage7 from "./4c049f939506e6741ee9886e73f8adb031717cc0.png";
-import imgImage8 from "./f9597606d5590600a1c86d3ab7337037cad30b09.png";
-import imgImage9 from "./95efec7ad4b667b29c5a193c6d40ed1476831228.png";
-import imgImage10 from "./1a2b90206843df7d3396d7efdca8484695a5ff0f.png";
-import imgImage11 from "./64763c77e7de364c5c5e7d9e8b9ca5d646fd831e.png";
-import imgImage12 from "./50c3ce98d9c92926f9fdace036a4ea4b6bcda26e.png";
-import imgImage13 from "./0f0476442586e857d987e1f900917f356c0aabd0.png";
-import imgImage14 from "./7f0904de0d0a2ea506a816f352b867e5515a6f2c.png";
-import imgImage15 from "./3a0f2c7b56877e55f37502b8a9238b4f0249b849.png";
+const imgImage = "/images/7c9041e39500bc30757630d9a41aa07b01213fef.webp";
+const imgImage1 = "/images/2dfd71ae5cbf5f62d8dd8c312b1476fb9f7da6c0.webp";
+const imgImage2 = "/images/8dac4b5e38b5b0e375d34d8502d63830b73167c0.webp";
+const imgCtaSection = "/images/c5896a3f6e9a45b8cbbb8b9930ad7996615f0fd6.webp";
+const imgContent = "/images/864c4828a39629a006642af67b4a8d267fb629f3.webp";
+const imgImage3 = "/images/387748e4adf2e6b54ac0f40178083b0378eb1e0c.webp";
+const imgRectangle1 = "/images/99db85dcc91aadd97c4f79fbdc8a8c020b713409.webp";
+const imgRectangle2 = "/images/4ef312fd151c967819dd3a272b626480d789857d.webp";
+const imgImage4 = "/images/9647e2859bfa976db4bf477a57143f1c9102a525.webp";
+const imgImage5 = "/images/719c0b382987dfd5da9d817ede1d3254d0b69a6c.webp";
+const imgImage6 = "/images/33759ff19bceb78330a2904aaf9492f0142d5a04.webp";
+const imgImage7 = "/images/4c049f939506e6741ee9886e73f8adb031717cc0.webp";
+const imgImage8 = "/images/f9597606d5590600a1c86d3ab7337037cad30b09.webp";
+const imgImage9 = "/images/95efec7ad4b667b29c5a193c6d40ed1476831228.webp";
+const imgImage10 = "/images/1a2b90206843df7d3396d7efdca8484695a5ff0f.webp";
+const imgImage11 = "/images/64763c77e7de364c5c5e7d9e8b9ca5d646fd831e.webp";
+const imgImage12 = "/images/50c3ce98d9c92926f9fdace036a4ea4b6bcda26e.webp";
+const imgImage13 = "/images/0f0476442586e857d987e1f900917f356c0aabd0.webp";
+const imgImage14 = "/images/7f0904de0d0a2ea506a816f352b867e5515a6f2c.webp";
+const imgImage15 = "/images/3a0f2c7b56877e55f37502b8a9238b4f0249b849.webp";
 
 function Group2() {
   return (
@@ -239,7 +239,7 @@ function Image() {
   return (
     <div className="h-[468px] relative rounded-[8px] shrink-0 w-[626px]" data-name="Image">
       <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[8px]">
-        <img alt="" className="absolute h-[171.75%] left-0 max-w-none top-[-55.11%] w-full" src={imgImage} />
+        <img alt="" className="absolute h-[171.75%] left-0 max-w-none top-[-55.11%] w-full" src={imgImage} srcSet={`${imgImage} 2x`} />
       </div>
     </div>
   );
@@ -314,7 +314,7 @@ function Image1() {
   return (
     <div className="h-[468px] relative rounded-[8px] shrink-0 w-[626px]" data-name="Image">
       <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[8px]">
-        <img alt="" className="absolute h-[167.22%] left-0 max-w-none top-[-25.07%] w-full" src={imgImage1} />
+        <img alt="" className="absolute h-[167.22%] left-0 max-w-none top-[-25.07%] w-full" src={imgImage1} srcSet={`${imgImage1} 2x`} />
       </div>
     </div>
   );
@@ -333,7 +333,7 @@ function Image2() {
   return (
     <div className="h-[468px] relative rounded-[8px] shrink-0 w-[626px]" data-name="Image">
       <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[8px]">
-        <img alt="" className="absolute h-[122.24%] left-[-14.22%] max-w-none top-[-3.51%] w-[114.22%]" src={imgImage2} />
+        <img alt="" className="absolute h-[122.24%] left-[-14.22%] max-w-none top-[-3.51%] w-[114.22%]" src={imgImage2} srcSet={`${imgImage2} 2x`} />
       </div>
     </div>
   );
@@ -401,7 +401,7 @@ function CtaSection() {
     <div className="-translate-x-1/2 absolute h-[554px] left-1/2 top-0 w-[1440px]" data-name="CTA section">
       <div aria-hidden className="absolute inset-0 pointer-events-none">
         <div className="absolute inset-0 overflow-hidden">
-          <img alt="" className="absolute h-[173.29%] left-0 max-w-none top-[-20.94%] w-full" src={imgCtaSection} />
+          <img alt="" className="absolute h-[173.29%] left-0 max-w-none top-[-20.94%] w-full" src={imgCtaSection} srcSet={`${imgCtaSection} 2x`} />
         </div>
         <div className="absolute bg-gradient-to-t from-black inset-0 to-1/2 to-[rgba(0,0,0,0)]" />
       </div>
@@ -484,7 +484,7 @@ function MetricItem1() {
 function NumberAndText2() {
   return (
     <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-name="Number and text">
-      <p className="[word-break:break-word] font-['Inter:Semi_Bold',sans-serif] font-semibold leading-[28px] not-italic relative shrink-0 text-[18px] text-white whitespace-pre-wrap">
+      <p className="[word-break:break-word] font-['Inter:Semi_Bold',sans-serif] font-semibold leading-[28px] not-italic relative shrink-0 text-[18px] text-white w-full whitespace-pre-wrap">
         {`Zone `}
         <br aria-hidden />
         Control
@@ -537,7 +537,7 @@ function Frame() {
 function NumberAndText3() {
   return (
     <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-name="Number and text">
-      <p className="[word-break:break-word] font-['Inter:Semi_Bold',sans-serif] font-semibold leading-[28px] not-italic relative shrink-0 text-[18px] text-white whitespace-pre-wrap">
+      <p className="[word-break:break-word] font-['Inter:Semi_Bold',sans-serif] font-semibold leading-[28px] not-italic relative shrink-0 text-[18px] text-white w-full whitespace-pre-wrap">
         {`Smart Home `}
         <br aria-hidden />
         Integration
@@ -605,7 +605,7 @@ function Content10() {
   return (
     <div className="flex-[1_0_0] h-full min-w-px relative rounded-[10px]" data-name="Content">
       <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[10px]">
-        <img alt="" className="absolute h-[103.15%] left-[-8.03%] max-w-none top-[-1.05%] w-[117.65%]" src={imgContent} />
+        <img alt="" className="absolute h-[103.15%] left-[-8.03%] max-w-none top-[-1.05%] w-[117.65%]" src={imgContent} srcSet={`${imgContent} 2x`} />
       </div>
     </div>
   );
@@ -923,7 +923,7 @@ function Image3() {
   return (
     <div className="flex-[1_0_0] h-[478px] min-w-px relative" data-name="Image">
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <img alt="" className="absolute h-[405.81%] left-0 max-w-none top-[-205.21%] w-[109.22%]" src={imgImage3} />
+        <img alt="" className="absolute h-[405.81%] left-0 max-w-none top-[-205.21%] w-[109.22%]" src={imgImage3} srcSet={`${imgImage3} 2x`} />
       </div>
     </div>
   );
@@ -958,7 +958,7 @@ function Frame17() {
   return (
     <div className="h-[400px] overflow-clip relative rounded-[8px] shrink-0 w-full">
       <div className="absolute h-[400px] left-0 rounded-[8px] top-0 w-[608px]">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8px] size-full" src={imgRectangle1} />
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8px] size-full" src={imgRectangle1} srcSet={`${imgRectangle1} 2x`} />
       </div>
     </div>
   );
@@ -1010,7 +1010,7 @@ function Frame18() {
     <div className="h-[400px] overflow-clip relative rounded-[8px] shrink-0 w-full">
       <div className="absolute h-[400px] left-0 rounded-[8px] top-0 w-[608px]">
         <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[8px]">
-          <img alt="" className="absolute h-[228.06%] left-[0.08%] max-w-none top-[-64.09%] w-full" src={imgRectangle2} />
+          <img alt="" className="absolute h-[228.06%] left-[0.08%] max-w-none top-[-64.09%] w-full" src={imgRectangle2} srcSet={`${imgRectangle2} 2x`} />
         </div>
       </div>
     </div>
@@ -1120,16 +1120,16 @@ function ImageRow() {
   return (
     <div className="content-stretch flex gap-[8px] items-center justify-center relative shrink-0 w-full" data-name="Image Row">
       <div className="h-[250px] relative rounded-[15px] shrink-0 w-[350px]" data-name="Image">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[15px] size-full" src={imgImage4} />
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[15px] size-full" src={imgImage4} srcSet={`${imgImage4} 2x`} />
       </div>
       <div className="h-[250px] relative rounded-[15px] shrink-0 w-[350px]" data-name="Image">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[15px] size-full" src={imgImage5} />
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[15px] size-full" src={imgImage5} srcSet={`${imgImage5} 2x`} />
       </div>
       <div className="h-[250px] relative rounded-[15px] shrink-0 w-[350px]" data-name="Image">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[15px] size-full" src={imgImage6} />
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[15px] size-full" src={imgImage6} srcSet={`${imgImage6} 2x`} />
       </div>
       <div className="h-[250px] relative rounded-[15px] shrink-0 w-[350px]" data-name="Image">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[15px] size-full" src={imgImage7} />
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[15px] size-full" src={imgImage7} srcSet={`${imgImage7} 2x`} />
       </div>
     </div>
   );
@@ -1139,16 +1139,16 @@ function ImageRow1() {
   return (
     <div className="content-stretch flex gap-[8px] items-center justify-center relative shrink-0 w-full" data-name="Image Row">
       <div className="h-[250px] relative rounded-[15px] shrink-0 w-[350px]" data-name="Image">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[15px] size-full" src={imgImage8} />
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[15px] size-full" src={imgImage8} srcSet={`${imgImage8} 2x`} />
       </div>
       <div className="h-[250px] relative rounded-[15px] shrink-0 w-[350px]" data-name="Image">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[15px] size-full" src={imgImage9} />
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[15px] size-full" src={imgImage9} srcSet={`${imgImage9} 2x`} />
       </div>
       <div className="h-[250px] relative rounded-[15px] shrink-0 w-[350px]" data-name="Image">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[15px] size-full" src={imgImage10} />
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[15px] size-full" src={imgImage10} srcSet={`${imgImage10} 2x`} />
       </div>
       <div className="h-[250px] relative rounded-[15px] shrink-0 w-[350px]" data-name="Image">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[15px] size-full" src={imgImage11} />
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[15px] size-full" src={imgImage11} srcSet={`${imgImage11} 2x`} />
       </div>
     </div>
   );
@@ -1158,16 +1158,16 @@ function ImageRow2() {
   return (
     <div className="content-stretch flex gap-[8px] items-center justify-center relative shrink-0 w-full" data-name="Image Row">
       <div className="h-[250px] relative rounded-[15px] shrink-0 w-[350px]" data-name="Image">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[15px] size-full" src={imgImage12} />
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[15px] size-full" src={imgImage12} srcSet={`${imgImage12} 2x`} />
       </div>
       <div className="h-[250px] relative rounded-[15px] shrink-0 w-[350px]" data-name="Image">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[15px] size-full" src={imgImage13} />
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[15px] size-full" src={imgImage13} srcSet={`${imgImage13} 2x`} />
       </div>
       <div className="h-[250px] relative rounded-[15px] shrink-0 w-[350px]" data-name="Image">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[15px] size-full" src={imgImage14} />
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[15px] size-full" src={imgImage14} srcSet={`${imgImage14} 2x`} />
       </div>
       <div className="h-[250px] relative rounded-[15px] shrink-0 w-[350px]" data-name="Image">
-        <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none rounded-[15px] size-full" src={imgImage15} />
+        <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none rounded-[15px] size-full" src={imgImage15} srcSet={`${imgImage15} 2x`} />
       </div>
     </div>
   );
